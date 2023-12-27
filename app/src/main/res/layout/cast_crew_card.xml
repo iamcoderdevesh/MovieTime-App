@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_90sdp"
+    android:layout_marginEnd="@dimen/_10sdp"
+    android:layout_height="@dimen/_90sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:elevation="@dimen/_10sdp"
+        android:layout_margin="@dimen/_3sdp"
+        app:cardCornerRadius="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_grey"
+        android:shape="oval">
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_38sdp"
+        android:layout_height="@dimen/_38sdp"
+        app:cardCornerRadius="50dp"
+        android:layout_gravity="center">
+    <ImageView
+        android:id="@+id/charImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/no_user_img"
+        android:contentDescription="image"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/charName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shahrukh Khan"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_11ssp"/>
+    <TextView
+        android:id="@+id/charRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="As Music Director"
+        android:gravity="center"
+        android:textColor="#FFD7D7D7"
+        android:textSize="@dimen/_10ssp"/>
+
+</LinearLayout>
